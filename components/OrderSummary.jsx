@@ -213,7 +213,7 @@ const OrderSummary = () => {
               Cash On Delivery
             </button>
             <button onClick={createOrderStripe} className="w-full flex justify-center items-center border border-indigo-500 bg-white hover:bg-gray-100  py-2 mt-5 ">
-              <Image className="w-12" src={stripeLogo}  alt="Stripe" />
+              <Image className="w-12" src={stripeLogo}  alt="" />
             </button>
           </div>
         )

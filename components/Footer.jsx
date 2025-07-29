@@ -9,10 +9,7 @@ const Footer = () => {
         <div className="w-4/5">
           <Image className="w-28 md:w-32" src={assets.logo} alt="logo" />
           <p className="mt-6 text-sm">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
+            Welcome to our e-commerce platform — where technology meets convenience. We provide a seamless, secure, and smart shopping experience tailored to meet the needs of modern consumers. From intuitive product discovery to fast checkout and reliable delivery, our tech-powered solutions make online shopping simple, efficient, and enjoyable. Our mission is to redefine e-commerce through innovation, customer-centric design, and cutting-edge technology.
           </p>
         </div>
 

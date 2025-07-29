@@ -24,7 +24,7 @@ export async function POST(request) {
 
             if(isPaid) {
                 await Order.findByIdAndUpdate(orderId,{isPaid:true})
-                await User.findByIdAndUpdate(orderId,{cartItems:{}})
+                await User.findByIdAndUpdate(userId,{cartItems:{}})
             }
             else {
                 await Order.findByIdAndDelete(orderId)
